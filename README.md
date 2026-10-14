@@ -6,15 +6,13 @@
 2. Input/masukkan jari-jari lingkaran yang ingin dihitung
 3. Jika jari-jari lingkaran merupakan kelipatan 7
 4. maka phi (π) sama dengan 22/7
-5. Hitung luas lingkaran dengan rumus 22/7 dikali jari-jari dikali jari-jari
-6. Hitung keliling lingkaran dengan rumus 2 dikali 22/7 dikali jari-jari
-7. Jika jari-jari lingkaran bukan merupakan kelipatan 7
-8. maka phi (π) sama dengan 3.14
-9. Hitung luas lingkaran dengan rumus 3.14 dikali jari-jari dikali jari-jari
-10. Hitung keliling lingkaran dengan rumus 2 dikali 3.14 dikali jari-jari
-11. Tampilkan hasil luas lingkaran
-12. Tampilkan keliling lingkaran
-13. Selesai
+5. Jika jari-jari lingkaran bukan merupakan kelipatan 7
+6. maka phi (π) sama dengan 3.14
+7. Hitung luas lingkaran dengan rumus 3.14 dikali jari-jari dikali jari-jari
+8. Hitung keliling lingkaran dengan rumus 2 dikali 3.14 dikali jari-jari
+9. Tampilkan hasil luas lingkaran
+10. Tampilkan keliling lingkaran
+11. Selesai
 
 ### Flowchart
 
