@@ -1,4 +1,5 @@
 const jariJari = 10;
+let phi;
 
 if (jariJari % 7 === 0) {
   phi = 22 / 7;
