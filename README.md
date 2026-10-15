@@ -63,3 +63,9 @@ OUTPUT kelilingLingkaran
 - Jika ingin menghitung luas lingkaran panggil method 'circle.luas()'
 - Jika ingin menghitung keliling lingkaran panggil method 'circle.keliling()'
 - Jika ingin merubah jari-jari menggunakan 'circle.jariJari'.
+
+#### Penjelasan callback function
+
+- Untuk mengetahui hasil perhitungan luas dan keliling lingkaran, panggil function hitung(r, hasil) beserta jari-jari lingkaran yang ingin dihitung.
+- Setelah dipanggil function hasil akan menjalankan proses yang ada di dalam const luas dan const lingkaran dimana masing-masing didalamnya terdapat pemanggilan function phi(r) yang mendapat paramater r
+- Kemudian function hitung() me-return callback function "cb(luas, keliling)" yang mana callback function nya adalah function hasil()
