@@ -17,5 +17,6 @@ const circle = {
 
 const luas = circle.luas();
 const keliling = circle.keliling();
+const { jariJari } = circle;
 
-console.log(`Luas: ${luas}, Keliling: ${keliling}`);
+console.log(`Jari-jari: ${jariJari}, Luas: ${luas}, Keliling: ${keliling}`);
