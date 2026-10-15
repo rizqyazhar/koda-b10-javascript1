@@ -19,4 +19,6 @@ const calc = (jariJari) => {
   return [luasLingkaran, kelilingLingkaran];
 };
 
-console.log(`Luas: ${calc(jariJari)[0]}, Keliling: ${calc(jariJari)[1]}`);
+const [hasiLuas, hasilKeliling] = calc(jariJari);
+
+console.log(`Luas: ${hasiLuas}, Keliling: ${hasilKeliling}`);
