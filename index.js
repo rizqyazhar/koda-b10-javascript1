@@ -1,22 +1,19 @@
-const circle = {
-  jariJari: 10,
-  phi: function () {
-    if (this.jariJari % 7 === 0) {
-      return 22 / 7;
-    } else {
-      return 3.14;
-    }
-  },
-  luas: function () {
-    return this.phi() * this.jariJari * this.jariJari;
-  },
-  keliling: function () {
-    return 2 * this.phi() * this.jariJari;
-  },
-};
+function phi(r) {
+  if (r % 7 === 0) {
+    return 22 / 7;
+  } else {
+    return 3.14;
+  }
+}
 
-const luas = circle.luas();
-const keliling = circle.keliling();
-const { jariJari } = circle;
+function hitung(r, cb) {
+  const luas = phi(r) * r * r;
+  const keliling = 2 * phi(r) * r;
+  return cb(luas, keliling);
+}
 
-console.log(`Jari-jari: ${jariJari}, Luas: ${luas}, Keliling: ${keliling}`);
+function hasil(luas, keliling) {
+  console.log(`Luas: ${luas}, Keliling: ${keliling}`);
+}
+
+hitung(10, hasil);
