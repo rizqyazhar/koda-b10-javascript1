@@ -1,23 +1,21 @@
-const jariJari = 10;
-
-// impure function
-
-const choosePhi = () => {
-  if (jariJari % 7 === 0) {
-    return 22 / 7;
-  } else {
-    return 3.14;
-  }
+const circle = {
+  jariJari: 10,
+  phi: function () {
+    if (this.jariJari % 7 === 0) {
+      return 22 / 7;
+    } else {
+      return 3.14;
+    }
+  },
+  luas: function () {
+    return this.phi() * this.jariJari * this.jariJari;
+  },
+  keliling: function () {
+    return 2 * this.phi() * this.jariJari;
+  },
 };
 
-// pure function
+const luas = circle.luas();
+const keliling = circle.keliling();
 
-const calc = (phi, r) => {
-  const luasLingkaran = phi * r * r;
-  const kelilingLingkaran = 2 * phi * r;
-  return [luasLingkaran, kelilingLingkaran];
-};
-
-const [hasiLuas, hasilKeliling] = calc(choosePhi(), jariJari);
-
-console.log(`Luas: ${hasiLuas}, Keliling: ${hasilKeliling}`);
+console.log(`Luas: ${luas}, Keliling: ${keliling}`);
