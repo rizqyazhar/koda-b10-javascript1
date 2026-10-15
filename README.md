@@ -67,4 +67,4 @@ OUTPUT kelilingLingkaran
 #### Penjelasan callback function
 
 - Untuk mengetahui hasil perhitungan luas dan keliling lingkaran, panggil function hitung(phi, 10, hasil) dan sertakan jari-jari lingkaran yang ingin dihitung.
-- Kemudian parameter tersebut akan
+- Kemudian parameter tersebut akan dipanggil di callback function
