@@ -13,12 +13,12 @@ const choosePhi = () => {
 
 // pure function
 
-const calc = (jariJari) => {
-  const luasLingkaran = choosePhi() * jariJari * jariJari;
-  const kelilingLingkaran = 2 * choosePhi() * jariJari;
+const calc = (choosePhi, jariJari) => {
+  const luasLingkaran = choosePhi * jariJari * jariJari;
+  const kelilingLingkaran = 2 * choosePhi * jariJari;
   return [luasLingkaran, kelilingLingkaran];
 };
 
-const [hasiLuas, hasilKeliling] = calc(jariJari);
+const [hasiLuas, hasilKeliling] = calc(choosePhi(), jariJari);
 
 console.log(`Luas: ${hasiLuas}, Keliling: ${hasilKeliling}`);
