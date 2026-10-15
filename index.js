@@ -14,8 +14,8 @@ function keliling(phi, r) {
   return 2 * phi(r) * r;
 }
 
-function hitung(phi, r, cb) {
-  return cb(luas(phi, r), keliling(phi, r));
+function hitung(phi, r, hasil) {
+  return hasil(luas(phi, r), keliling(phi, r));
 }
 
 function hasil(luas, keliling) {
