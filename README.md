@@ -57,3 +57,9 @@ kelilingLingkaran <- 2 * phi * jariJari
 OUTPUT luasLingkaran
 OUTPUT kelilingLingkaran
 ```
+
+#### Penjelasan method
+
+- Jika ingin menghitung luas lingkaran panggil method 'circle.luas()'
+- Jika ingin menghitung keliling lingkaran panggil method 'circle.keliling()'
+- Jika ingin merubah jari-jari menggunakan 'circle.jariJari'.
