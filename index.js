@@ -1,21 +1,20 @@
 const jariJari = 10;
-let phi;
 
 // impure function
 
 const choosePhi = () => {
   if (jariJari % 7 === 0) {
-    return (phi = 22 / 7);
+    return 22 / 7;
   } else {
-    return (phi = 3.14);
+    return 3.14;
   }
 };
 
 // pure function
 
-const calc = (choosePhi, jariJari) => {
-  const luasLingkaran = choosePhi * jariJari * jariJari;
-  const kelilingLingkaran = 2 * choosePhi * jariJari;
+const calc = (phi, r) => {
+  const luasLingkaran = phi * r * r;
+  const kelilingLingkaran = 2 * phi * r;
   return [luasLingkaran, kelilingLingkaran];
 };
 
